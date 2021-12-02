@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+
+.center1{
+    text-align: center;
+    margin: 12px;
+}
+.delete{
+    color: #5c6e77;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 1px solid #5c6e77;
+    border-radius: 100px;
+    padding: 10px 30px;
+    transition-duration: .2s;
+    display: inline-block;
+    perspective: 1000px;
+    transform-origin: center bottom 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
